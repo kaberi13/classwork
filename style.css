@@ -56,10 +56,13 @@ background: radial-gradient(circle, rgb(246, 203, 241) 0%, rgba(208, 234, 242, 0
 #photo{
     height: 80%;
     border-radius: 50%;
-    
-    
+    border: 3px dotted #455763;
+    }
 
-}
+    @media(hover: hover){
+    #photo:hover{
+        height: 85%;
+    }}
 
 #contact{
     background-color: #d6c9b4;
@@ -85,12 +88,13 @@ align-items: center;
 font-family:"Freckle Face";
 }
 
+@media(hover: hover){
 .button:hover{
 background-color:#00070b;
 height: 55%;
 width: 22%;
 transition: 0.5s;
-
+}
 }
 
 
@@ -116,11 +120,11 @@ transition: 0.5s;
     color: #d3dadc;
     border-radius: 10%;
    }
-
+@media(hover: hover){
    .box:hover{
     background-color: #00070b;
     transition: 0.5s;
-   }
+   }}
 
 #txtname{
     font-size: 150%;
