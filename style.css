@@ -7,7 +7,7 @@
 body{
     
     background: #f7d2f3;
-background: radial-gradient(circle, rgb(246, 203, 241) 0%, rgba(211, 218, 220, 1) 66%);
+background: radial-gradient(circle, rgb(246, 203, 241) 0%, rgba(208, 234, 242, 0.932) 66%);
     height: 100dvh;
     padding: 0;
     margin: 0;
@@ -26,7 +26,7 @@ background: radial-gradient(circle, rgb(246, 203, 241) 0%, rgba(211, 218, 220, 1
 #container{
     width: 40%;
     height: 75%;
-    background-color: #f7f6e1;
+    background-color: #f8f7e4fa;
     border: 5px solid #d6c9b4 ;
     border-radius: 5%;
     color: #6f4e37;
@@ -93,6 +93,7 @@ transition: 0.5s;
 
 }
 
+
 #smallcontainer{
     display:flex;
     padding: 0;
@@ -121,3 +122,56 @@ transition: 0.5s;
     transition: 0.5s;
    }
 
+#txtname{
+    font-size: 150%;
+    margin: 0;
+}
+
+@media(max-width:600px) {
+    
+#container{
+    width:80% ;
+    height: 55%;
+}
+
+#about{
+    height: 25%;
+    background-position: 50% 122%;
+}
+    #photo{
+        height:60% ;
+    }
+
+    #txtname{
+        font-size: 100%;
+    }
+    #name{
+        width: 58%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+.button{
+    width: 25%;
+}
+
+#smallcontainer{
+    height: 35%;
+}
+.box{
+    font-size:80% ;
+   
+    align-items: left;
+}
+#box1txt{
+    font-size: 110%;
+}
+#box2txt{
+    font-size: 110%;
+    padding: 5px;
+}
+.icon{
+    height: 70%;
+}
+}
